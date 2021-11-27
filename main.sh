@@ -17,6 +17,7 @@ echo "${nc}"
 if [[ -f "./installed" ]]; 
 
 then
+
     echo "Starting the server"
     sleep 1
     java -jar Lavalink.jar
