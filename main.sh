@@ -26,7 +26,7 @@ else
     echo "Downloading files for Lavalink Server"
     sleep 1
     touch installed
-    wget https://github.com/Cog-Creators/Lavalink-Jars/releases/download/3.3.2.3_1239/Lavalink.jar
+    wget https://github.com/freyacodes/Lavalink/releases/download/3.4/Lavalink.jar
     wget application.yml https://raw.githubusercontent.com/afnan007a/Lavalink-MusicBot/main/application.yml
     java -jar Lavalink.jar
 
